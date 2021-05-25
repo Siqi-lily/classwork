@@ -4,7 +4,6 @@ author: "Siqi Li"
 date: "5/25/2021"
 output: word_document
 ---
-
 ```{r}
 library(tidyverse)
 library(dplyr)
@@ -13,20 +12,3 @@ ggplot
 ```{r}
 ggplot(diamonds, aes(x=carat, y=price)) + geom_point()
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
