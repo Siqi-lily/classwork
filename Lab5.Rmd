@@ -1,0 +1,36 @@
+---
+title: "Lab5"
+author: "Siqi Li"
+date: "5/27/2021"
+output: word_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+
+```
+mpg plot
+```{r}
+ggplot(mpg, aes(x=trans, y=cty, fill = "red")) + geom_boxplot()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
